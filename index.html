@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Based Calculatorr</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <table border="1" cellspacing="5px" cellpadding="5px">
+        <tr>
+            <td class="f" colspan="4"><input type="text" placeholder="0" class="t" id="res"></td>
+        </tr>
+        <tr>
+            <td><button onclick="show('7')">7</button></td>
+            <td><button onclick="show('8')">8</button></td>
+            <td><button onclick="show('9')">9</button></td>
+            <td><button onclick="show('/')">&divide</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="show('4')">4</button></td>
+            <td><button onclick="show('5')">5</button></td>
+            <td><button onclick="show('6')">6</button></td>
+            <td><button onclick="show('*')">&times</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="show('1')">1</button></td>
+            <td><button onclick="show('2')">2</button></td>
+            <td><button onclick="show('3')">3</button></td>
+            <td><button onclick="show('-')">&#8722</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="show('0')">0</button></td>
+            <td><button onclick="show('.')">.</button></td>
+            <td><button onclick="show('+')">+</button></td>
+            <td style="background-color: rgb(228, 144, 18); border: none;"><button id="b" onclick="cal()">=</button></td>
+        </tr>
+    </table>
+</body>
+</html>

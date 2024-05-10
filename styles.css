@@ -1,0 +1,52 @@
+table {
+    
+    border: 2px;
+    margin: 20px;
+    background-color: rgb(82, 77, 77);
+    border-radius: 20px;
+    padding: 10px;
+    
+        
+}
+
+td {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    }
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+#b{
+    background-color: rgb(228, 144, 18)
+}
+
+.t{
+    background-color: rgb(243, 238, 238);
+    height: 40px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    margin: auto;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.f{
+    background-color: rgb(82, 77, 77);
+    padding: 10px;
+    border: none;
+    justify-content: center;
+    
+}
